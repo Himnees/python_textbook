@@ -1,0 +1,17 @@
+# Working with arrays using numpy
+''' numoy is a package that contains several classes, functions, variables etc. to deal with scientific calculation in python'''
+
+# Program 14: A python program to create a imple array using nummpy.
+import numpy
+arr = numpy.array([10,20,30,40,50])
+print(arr)
+
+# Program 15: Another version of program 14 to creae an array.
+import numpy as nm
+arr = nm.array([11,12,13,14,15])
+print(arr)
+
+# Program 16: Another version of program 15 to create an array.
+from numpy import *
+arr=array([1,23,3,4,5])
+print(arr)

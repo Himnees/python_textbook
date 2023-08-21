@@ -1,0 +1,10 @@
+# Aliasing the Arrays
+# Program 30: A python program to alias an array and understand the affect of aliasing.
+from numpy import *
+a= arange(1,6)
+b=a
+print('Orginal array:',a)
+print('Alias array:',b)
+b[0]=33
+print('Orginal array:',a)
+print('Alias array:',b)
